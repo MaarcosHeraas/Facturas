@@ -7,7 +7,13 @@ public class Facturas implements FacturasI {
 	public static void main(String[] args){
 		
 	}
-	void cambiarEstado(Esatdos estado){}
-	public float  getTotal(){}
-	public  float getCantidadIva(){}
+	
+	public void cambiarEstado(Esatdos estado){
+}
+	public float  getTotal(){
+	return base;
+}
+	public  float getCantidadIva(){
+	return tipoiva;
+}
 }
